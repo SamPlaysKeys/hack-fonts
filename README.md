@@ -30,12 +30,25 @@ This repository also includes **Hack Nerd Font** variants that extend the origin
 - **License**: Same as original Hack font (MIT License compatible)
 - **Format**: TTF files with .otf extension (compatible with most systems)
 
+---
+## Quick Install
+**Quick Install Command for macOS:**
+```bash
+cd /Library/Fonts && git clone https://github.com/SamPlaysKeys/hack-fonts.git
+```
+
+**Quick Install Command for Linux:**
+```bash  
+sudo git clone https://github.com/SamPlaysKeys/hack-fonts.git /usr/share/fonts/hack-fonts && sudo fc-cache -f -v
+```
+---
+
 ## Demo
 ### Local Demo
 Open `web/demo.html` in your browser to see a comprehensive demonstration of all font variants and character sets.
 
 ### Hosted Demo
-A live copy of `web/demo.html` is hosted at [SamPlaysKeys.com](https://samplayskeys.com/shared/2025/hack_font_demo.html) for easy review.
+A live copy of `web/demo.html` is hosted at [SamPlaysKeys.com/](https://samplayskeys.com/shared/2025/hack_font_demo.html) for easy review.
 
 ## Repository Structure
 
@@ -79,7 +92,7 @@ hack-fonts/
 **System-wide Installation:**
 ```bash
 # Clone the repository to /Library/Fonts
-sudo git clone https://github.com/[your-username]/hack-fonts.git /Library/Fonts/hack-fonts
+sudo git clone https://github.com/SamPlaysKeys/hack-fonts.git /Library/Fonts/hack-fonts
 
 # Or install TTF files directly to system fonts
 sudo cp hack-fonts/ttf/*.ttf /Library/Fonts/
@@ -88,7 +101,7 @@ sudo cp hack-fonts/ttf/*.ttf /Library/Fonts/
 **User Installation:**
 ```bash
 # Clone to user fonts directory
-git clone https://github.com/[your-username]/hack-fonts.git ~/Library/Fonts/hack-fonts
+git clone https://github.com/SamPlaysKeys/hack-fonts.git ~/Library/Fonts/hack-fonts
 
 # Or install TTF files to user fonts
 cp hack-fonts/ttf/*.ttf ~/Library/Fonts/
@@ -99,7 +112,7 @@ cp hack-fonts/ttf/*.ttf ~/Library/Fonts/
 **System-wide Installation:**
 ```bash
 # Clone to system fonts directory
-sudo git clone https://github.com/[your-username]/hack-fonts.git /usr/share/fonts/hack-fonts
+sudo git clone https://github.com/SamPlaysKeys/hack-fonts.git /usr/share/fonts/hack-fonts
 
 # Update font cache
 sudo fc-cache -f -v
@@ -114,7 +127,7 @@ sudo fc-cache -f -v
 ```bash
 # Clone to user fonts directory  
 mkdir -p ~/.local/share/fonts
-git clone https://github.com/[your-username]/hack-fonts.git ~/.local/share/fonts/hack-fonts
+git clone https://github.com/SamPlaysKeys/hack-fonts.git ~/.local/share/fonts/hack-fonts
 
 # Update user font cache
 fc-cache -f -v
@@ -135,7 +148,7 @@ fc-cache -f -v
 **Installation via PowerShell:**
 ```powershell
 # Download and install (requires PowerShell 5.0+)
-git clone https://github.com/[your-username]/hack-fonts.git
+git clone https://github.com/SamPlaysKeys/hack-fonts.git
 Copy-Item "hack-fonts\\ttf\\*.ttf" "$env:SystemRoot\\Fonts\\"
 ```
 
@@ -244,14 +257,3 @@ To contribute to this distribution:
   - Bug fixes and optimizations
   - Web font optimizations
 
----
-
-**Quick Install Command for macOS:**
-```bash
-cd /Library/Fonts && git clone https://github.com/[your-username]/hack-fonts.git
-```
-
-**Quick Install Command for Linux:**
-```bash  
-sudo git clone https://github.com/[your-username]/hack-fonts.git /usr/share/fonts/hack-fonts && sudo fc-cache -f -v
-```
