@@ -30,6 +30,13 @@ This repository also includes **Hack Nerd Font** variants that extend the origin
 - **License**: Same as original Hack font (MIT License compatible)
 - **Format**: TTF files with .otf extension (compatible with most systems)
 
+## Demo
+### Local Demo
+Open `web/demo.html` in your browser to see a comprehensive demonstration of all font variants and character sets.
+
+### Hosted Demo
+A live copy of `web/demo.html` is hosted at [SamPlaysKeys.com](https://samplayskeys.com/shared/2025/hack_font_demo.html) for easy review.
+
 ## Repository Structure
 
 This repository organizes the Hack font family into the following directories:
@@ -191,10 +198,6 @@ Include the font in your web projects:
 | Bold | 700 | normal | HackNerdFont-Bold.otf |
 | Italic | 400 | italic | HackNerdFont-Italic.otf |
 | Bold Italic | 700 | italic | HackNerdFont-BoldItalic.otf |
-
-## Demo
-
-Open `web/demo.html` in your browser to see a comprehensive demonstration of all font variants and character sets.
 
 ## License
 
