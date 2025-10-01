@@ -30,8 +30,7 @@ This repository also includes **Hack Nerd Font** variants that extend the origin
 - **License**: Same as original Hack font (MIT License compatible)
 - **Format**: TTF files with .otf extension (compatible with most systems)
 
----
-## Quick Install
+## Quick Install ⏱️
 **Quick Install Command for macOS:**
 ```bash
 cd /Library/Fonts && git clone https://github.com/SamPlaysKeys/hack-fonts.git
@@ -41,7 +40,6 @@ cd /Library/Fonts && git clone https://github.com/SamPlaysKeys/hack-fonts.git
 ```bash  
 sudo git clone https://github.com/SamPlaysKeys/hack-fonts.git /usr/share/fonts/hack-fonts && sudo fc-cache -f -v
 ```
----
 
 ## Demo
 ### Local Demo
