@@ -11,6 +11,25 @@ Hack is a typeface designed specifically for source code. It includes monospaced
 - **License**: MIT License (SIL Open Font License + Bitstream Vera License)
 - **Official Repository**: [source-foundry/Hack](https://github.com/source-foundry/Hack)
 
+## About Nerd Fonts
+
+This repository also includes **Hack Nerd Font** variants that extend the original Hack typeface with additional glyphs and symbols commonly used in terminal applications, IDEs, and development environments.
+
+**Nerd Fonts Features:**
+- 🔢 **3,600+ additional glyphs** including icons from Font Awesome, Devicons, Octicons, and more  
+- 🚀 **Perfect for terminals** and modern development workflows
+- 📁 **File type icons** for enhanced file explorers and terminal experiences
+- ⚡ **Git status indicators** and branch symbols
+- 🐧 **Linux/Unix symbols** and powerline glyphs
+- 💻 **Programming language icons** for VS Code, Vim, and other editors
+
+**Nerd Font Details:**
+- **Version**: v3.4.0 (latest)
+- **Source**: [Nerd Fonts Project](https://github.com/ryanoasis/nerd-fonts)
+- **Variant Used**: HackNerdFontMono (maintains monospace characteristics)
+- **License**: Same as original Hack font (MIT License compatible)
+- **Format**: TTF files with .otf extension (compatible with most systems)
+
 ## Repository Structure
 
 This repository organizes the Hack font family into the following directories:
@@ -20,12 +39,17 @@ hack-fonts/
 ├── README.md           # This file
 ├── LICENSE.md          # Font license information  
 ├── ATTRIBUTION.md      # Credits and attribution
-├── otf/               # OpenType Font files (.otf) [Coming Soon]
-├── ttf/               # TrueType Font files (.ttf)
+├── otf/               # OpenType Font files (.otf) - Nerd Font variants
+├── ttf/               # TrueType Font files (.ttf) - Original Hack
 │   ├── Hack-Regular.ttf
 │   ├── Hack-Bold.ttf
 │   ├── Hack-Italic.ttf
 │   └── Hack-BoldItalic.ttf
+├── otf/               # Nerd Font variants with additional glyphs
+│   ├── HackNerdFont-Regular.otf
+│   ├── HackNerdFont-Bold.otf
+│   ├── HackNerdFont-Italic.otf
+│   └── HackNerdFont-BoldItalic.otf
 └── web/               # Web font files and demo
     ├── demo.html          # Font demonstration page
     ├── stylesheet.css     # CSS with @font-face declarations
@@ -151,12 +175,22 @@ Include the font in your web projects:
 
 ### Available Variants
 
+#### Original Hack (TTF)
 | Variant | Weight | Style | File Name |
 |---------|--------|-------|-----------|
 | Regular | 400 | normal | Hack-Regular.ttf |
 | Bold | 700 | normal | Hack-Bold.ttf |
 | Italic | 400 | italic | Hack-Italic.ttf |
 | Bold Italic | 700 | italic | Hack-BoldItalic.ttf |
+
+#### Hack Nerd Font (OTF)
+*Includes 3,600+ additional glyphs and symbols*
+| Variant | Weight | Style | File Name |
+|---------|--------|-------|-----------|
+| Regular | 400 | normal | HackNerdFont-Regular.otf |
+| Bold | 700 | normal | HackNerdFont-Bold.otf |
+| Italic | 400 | italic | HackNerdFont-Italic.otf |
+| Bold Italic | 700 | italic | HackNerdFont-BoldItalic.otf |
 
 ## Demo
 
@@ -176,6 +210,11 @@ This repository is a curated collection of the Hack typeface created by:
 - **Christopher Simpkins** and contributors
 - Based on **Bitstream Vera Sans Mono** by Bitstream, Inc.
 - Extended from **DejaVu Sans Mono**
+
+**Nerd Font variants** are provided by:
+- **Nerd Fonts project** by Ryan L McIntyre and contributors
+- **Repository**: [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
+- **Additional licensing**: See [NERD_FONTS_LICENSE.md](NERD_FONTS_LICENSE.md)
 
 For complete attribution information, see [ATTRIBUTION.md](ATTRIBUTION.md).
 
